@@ -136,7 +136,7 @@ install_XrayR() {
     rm /etc/systemd/system/XrayR.service -f
     file="https://github.com/ilovecpc/XrayR-script/raw/master/XrayR.service"
     wget -q -N --no-check-certificate -O /etc/systemd/system/XrayR.service ${file}
-    #cp -f XrayR.service /etc/systemd/system/
+    cp -f XrayR.service /etc/systemd/system/
     systemctl daemon-reload
     systemctl stop XrayR
     systemctl enable XrayR
