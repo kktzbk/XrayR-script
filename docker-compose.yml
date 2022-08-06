@@ -1,7 +1,7 @@
 version: '3'
 services: 
   xrayr: 
-    image: ilovecpc/xrayr:latest
+    image: kktzbk/XrayR-3:latest
     volumes:
       - ./config:/etc/XrayR/ # 映射配置文件夹
     restart: always
