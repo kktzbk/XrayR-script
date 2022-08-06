@@ -14,7 +14,7 @@ Find the source code here: [ilovecpc/XrayR](https://github.com/ilovecpc/XrayR)
 # 一键安装
 
 ```
-wget -N https://raw.githubusercontents.com/ilovecpc/XrayR-script/master/install.sh && bash install.sh
+wget -N https://raw.githubusercontents.com/kktzbk/XrayR-script/master/install.sh && bash install.sh
 ```
 
 # Docker 安装
@@ -32,7 +32,7 @@ curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compo
 chmod +x /usr/local/bin/docker-compose
 ```
 
-2. `git clone https://github.com/ilovecpc/XrayR-script XrayR-release`
+2. `git clone https://github.com/kktzbk/XrayR-script XrayR-release`
 3. `cd XrayR-release`
 4. 编辑config。
 配置文件基本格式如下，Nodes下可以同时添加多个面板，多个节点配置信息，只需添加相同格式的Nodes item即可。
@@ -126,4 +126,4 @@ docker-compose up -d
 
 ## Stars 增长记录
 
-[![Stargazers over time](https://starchart.cc/ilovecpc/XrayR-script.svg)](https://starchart.cc/ilovecpc/XrayR-script)
+[![Stargazers over time](https://starchart.cc/kktzbk/XrayR-script.svg)](https://starchart.cc/kktzbk/XrayR-script)
